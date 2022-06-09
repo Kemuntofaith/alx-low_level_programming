@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * _isdigit - writes the character c to stdout
+ * _isdigit - checks for a digit (0 through 9)
  * @c: the character being checked
  * Return: 1 if digit else 0
  */
