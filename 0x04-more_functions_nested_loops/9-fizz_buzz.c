@@ -6,7 +6,6 @@
  * buzz: if divisible by 5
  * fizzbuzz: if divisible by both
  * Return: 0
- *
  */
 int main(void)
 {
@@ -16,15 +15,15 @@ int main(void)
 	{
 		if ((i % 3) == 0 && (i % 5) != 0)
 		{
-			printf("Fizz");
+			printf("Fizz ");
 		}
-		else if ((i % 5) == 0 &&(i % 3) != 0)
+		else if ((i % 5) == 0 && (i % 3) != 0)
 		{
-			printf("Buzz");
+			printf("Buzz ");
 		}
 		else if ((i % 3) == 0 && (i % 5) == 0)
 		{
-			printf("FizzBuzz");
+			printf("FizzBuzz ");
 		}
 		else
 		{
