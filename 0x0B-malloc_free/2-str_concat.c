@@ -7,7 +7,7 @@
  * @s2: second string
  * Return: int '\0' or pointer to array
  */
-int char *str_concat(char *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 	char *strDup;
 	int i;
