@@ -1,4 +1,6 @@
 #include <stdio.h>
+
+void hare(void);
 /**
  * hare - prints a string before the main function is executed
  *
